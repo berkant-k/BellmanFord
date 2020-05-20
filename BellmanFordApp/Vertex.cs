@@ -13,7 +13,7 @@ namespace BellmanFord
 
         public override string ToString()
         {
-            return Id + "(" + Distance + ")"; ;
+            return $"{Id}({Distance})";
         }
     }
 }

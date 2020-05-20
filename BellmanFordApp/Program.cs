@@ -37,7 +37,7 @@ namespace BellmanFord
 
 
             Console.WriteLine("-------------------");
-            Console.WriteLine($"Source={s.Id},Negative Success={success}, Final Table");
+            Console.WriteLine($"Source={s.Id},Success={success}, Final Table");
             Console.WriteLine("-------------------");
 
             graph.Print();
