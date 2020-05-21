@@ -1,4 +1,7 @@
+
 # BellmanFord
 This is implementation of Bellman-Ford shortest path algorithim with C# and OOP.
-#Dynaming Programing
+# Dynaming Programing
 This is an example of DP methods.
+
+![Image of Yaktocat](/images/sampleGraph.png)
