@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BellmanFord
+﻿namespace BellmanFord
 {
     public class Edge
     {
@@ -17,7 +13,7 @@ namespace BellmanFord
         }
         public override string ToString()
         {
-            return Source + "->" + Destination + "(" + Weight + ")";
+            return $"{Source} -> {Destination} ({Weight}) "; 
         }
     }
 }

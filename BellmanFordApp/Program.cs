@@ -7,6 +7,7 @@ namespace BellmanFord
         static void Main(string[] args)
         {
             Graph graph = new Graph();
+           
             var s = new Vertex("s");
             var y = new Vertex("y");
             var x = new Vertex("x");
