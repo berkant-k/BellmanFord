@@ -6,6 +6,7 @@ This is an example of DP methods.
 
 # Sample Input
 ![Sample Graph](/images/sampleGraph.png)
+You can create a graph as above with the following codes
 ```C#
  Graph graph = new Graph();
            
@@ -32,18 +33,18 @@ This is an example of DP methods.
 
             graph.Edges.Add(new Edge { Source = z, Destination = s, Weight = 2 });
             graph.Edges.Add(new Edge { Source = z, Destination = x, Weight = 7 });
-
             graph.Edges.Add(new Edge { Source = x, Destination = t, Weight = -2 });
+            
 
-            var success = ShortestPath.BellmanFord(graph, s);
+```
 
-
+Than you can calculete  shortest paths as this.
+```C#
+var success = ShortestPath.BellmanFord(graph, s);
             Console.WriteLine("-------------------");
             Console.WriteLine($"Source={s.Id},Success={success}, Final Table");
             Console.WriteLine("-------------------");
-
             graph.Print();
-
 ```
 
 # Sample Output 
