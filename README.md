@@ -38,7 +38,7 @@ You can create a graph as above with the following codes
 
 ```
 
-Than you can calculate  shortest paths as this.
+Then you can calculate  shortest paths as this.
 ```C#
 var success = ShortestPath.BellmanFord(graph, s);
             Console.WriteLine("-------------------");
